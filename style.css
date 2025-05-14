@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    background-color: #f9fcfd;
 }
 ol, ul {
     list-style: none;
@@ -53,8 +54,8 @@ table {
 
 #body{
     font-family: roboto, sans-serif;
-    color: #a0a8b0;
-    /*color: #191e3f;*/
+    /*color: #a0a8b0;*/
+    color: #191e3f;
 }
 
 p {
@@ -98,7 +99,8 @@ h1 {
 #header a {
     text-decoration: none;
     border-bottom: none;
-    color: #a0a8b0;
+    /*color: #a0a8b0;*/
+    color: #191e3f;
 }
 
 #header a:hover {
@@ -197,7 +199,8 @@ ul {
     list-style-type: disc;
     margin-left: 30px;
     margin-bottom: 30px;
-    color: #a0a8b0;
+    /*color: #a0a8b0;*/
+    color: #191e3f;
 }
 
 .showBtn {
@@ -331,8 +334,13 @@ h3 {
 }
 
 .research-proj p strong {
-    color: #fdc450;
+    /*color: #fdc450;*/
+    color: #6A1B9A;
     font-weight: 700;
+}
+
+.research-detail {
+    color: #4A6473;
 }
 
 #morePubs {
